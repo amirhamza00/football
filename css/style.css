@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.attached{
+    background-color: rgb(12, 34, 160);
+    padding-bottom: 30px;
+}
+/* -------------------
+header css
+------------------------ */
+header {
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+
+}
+
+.nav-item ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.nav-item ul li a:hover{
+    color: #8f8e8e;
+}
+.nav-btn {
+    background-color:#E02C6D;
+    width: 115px;
+    height: 40px;
+    border: none;
+}
+.nav-btn a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.nav-btn:hover{
+    background-color: #ffffff;
+   
+    font-weight: 600;
+}
+.nav-btn:hover>a{
+    color: #E02C6D;
+}
+.nav-btn a i{
+    margin-right: 5px;
+   
+}
+
+/* ---------------------
+    banner css
+------------------------ */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.b-left h2{
+    font-size: 60px;
+    font-weight: 700;
+    width: 80%;
+    color: #fff;
+}
+.b-right img{
+    width: 556.01px;
+    height: 438px;
+}
+.b-btn button {
+    background-color:#E02C6D;
+    width: 135px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-btn button span i{
+    margin-left: 5px;
+}
+.b-btn button:hover{
+    background-color: #ffffff;
+    color: #E02C6D;
+    font-weight: 600;
+}
+.arrow{
+    position: relative;
+    left: 660px;
+    top: -15px;
+    display: inline-block;
+}
+.arrow a{
+    transition: 0.4s;
+}
+.arrow a i{
+    font-size: 25px;
+    color: #fff;
+}
+
+/* --------------------
+    player css
+---------------------- */
+.player{
+    margin: 50px 0;
+}
+.player-cards{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    margin: 0 20px 40px;   
+    padding: 15px;
+    box-shadow: 1px 1px 6px 6px rgba(231, 231, 231, 0.918);
+}
+.card img{
+    width: 300px;
+    height: 256px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 5px 0;
+}
